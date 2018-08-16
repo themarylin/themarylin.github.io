@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Portfolio</title>
+  <title>Projects</title>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -33,8 +33,8 @@
   <!-- YOUR HTML CODE GOES HERE -->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Mary's Portfolio</h1>
-      <p class="lead">A little about me, my passions, and projects I've worked or am currently working on.</p>
+      <h1 class="display-4">Completed Projects</h1>
+      <p class="lead">A complete list of projects I've worked/working on.</p>
     </div>
   </div>
 
@@ -46,9 +46,8 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Home</a>
-          </li>
+          <a class="nav-link" href="../index.html">Home
+          </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -56,10 +55,12 @@
             Projects
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Pages/projects.html">All Projects</a>
+            <a class="dropdown-item disabled" href="#">All Projects
+              <span class="sr-only">(current)</span>
+            </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="https://github.com/themarylin/SQL_Alchemy_Challenge">SQL Alchemy</a>
-            <a class="dropdown-item" href="https://github.com/themarylin/BTC-vs-Twitter">BitCoin Sentimient Anaysis</a>
+            <a class="dropdown-item" href="https://github.com/themarylin/BTC-vs-Twitter">BitCoin Sentiment Anaysis</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -75,35 +76,28 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Resources/MaryLin-CV.pdf">CV PDF download</a>
+          <a class="nav-link" href="../Resources/MaryLin-CV.pdf">CV PDF download</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <br>
   <div class="container">
     <div class="row">
-      <div class="media">
-        <img class="rounded mr-3 float-left" src="Resources/USC_IDpic.jpg">
-        <div class="media-body">
-          <h5 class="mt-0">Data Engineer</h5>
-          <br> Data Engineering student who currently has her sights set on a part-time data science internship. Passionate about
-          using knowledge to solve real-life problems, I am, as Hilary Mason would put it, an ‘awesome nerd’. Not only do
-          I have the technical skills to code and organize information and data in programs and languages such as Excel,
-          VBA, Python, SQL, Access, and Oracle, but I am also capable in leveraging my communication skills that help me
-          explain the impact of my work to others. I have an insatiable curiosity and do best in a team setting, working
-          with others to explore and create innovative solutions with optimal, efficient, and clean results.
-          <br>
-        </div>
-      </div>
+      <br>
     </div>
     <div class="row">
+      <div class="col-4">
+        <a href="https://www.linkedin.com/in/themarylin/SQL_Alchemy_Challenge">SQL Alchemy</a>
+      </div>
+      <div class="col-4">
+          <a href="https://www.linkedin.com/in/themarylin/BTC-vs-Twitter">BitCoin Sentiment Anaysis</a>
+      </div>
+      <div class="col-4">
 
+      </div>
     </div>
   </div>
-
-
 </body>
 
 </html>
