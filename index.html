@@ -1,167 +1,569 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mary Lin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-  <!-- Bootstrap -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="shortcut icon" href="favicon.ico">
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-  <!-- YOUR CUSTOM STYLESHEETS GO HERE -->
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 </head>
 
 <body>
-  <!-- YOUR HTML CODE GOES HERE -->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Mary's Portfolio</h1>
-      <p class="lead">A little about me, my passions, and projects I've worked or am currently working on.</p>
-    </div>
-  </div>
 
-  <nav class="navbar navbar-expand-xl navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <li class="nav-item">
-            <a class="nav-link disabled" href="">Home</a>
-          </li>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            Projects
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Pages/projects.html">All Projects</a>
-            <div class="dropdown-divider"></div>
-            <!--still need to add remaining projects here for drop down menus. Add individual pages for description and images as well-->
-            <a class="dropdown-item" href="Pages/SQLAlchemy/SQL-Alchemy.html">SQL Alchemy</a>
-            <a class="dropdown-item" href="Pages/BTCSentiment/BTC-Sentiment.html">BitCoin Sentimient Anaysis</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            Links
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://www.linkedin.com/in/themarylin/" target="_blank">LinkedIn</a>
-            <a class="dropdown-item" href="https://github.com/themarylin" target="_blank">GitHub</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Resources/Documents/MaryLin-CV.pdf" target="_blank">CV PDF download</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+	<!-- finished navigation bar changes, need to update project names and links next-->
+	<nav id="colorlib-main-nav" role="navigation">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+		<div class="js-fullheight colorlib-table">
+			<div class="colorlib-table-cell js-fullheight">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<input type="text" class="form-control" id="search" placeholder="Enter any key to search...">
+							<button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="services.html">Skills</a></li>
+							<li><a href="work.html">Projects</a></li>
+							<li><a href="blog.html">Personal Blog</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="head-title">Projects</h2>
+						<a href="images/work-1.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-1.jpg);">
+							<span style="color:white"><i class="icon-search3"></i><br>BTC Sentiment Analysis</span>
+						</a>
+						<a href="images/work-2.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-2.jpg);">
+							<span style="color:white"><i class="icon-search3"></i><br>project 2</span>
+						</a>
+						<a href="images/work-3.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-3.jpg);">
+							<span style="color:white"><i class="icon-search3"></i><br>project 3</span>
+						</a>
+						<a href="images/work-4.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-4.jpg);">
+							<span style="color:white"><i class="icon-search3"></i><br>Bobapedia</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
 
-  <br>
-  <div class="container">
-    <div class="row">
-      <div class="media">
-        <img class="rounded mr-3 float-left" src="Resources/Images/USC_IDpic.jpg" height="184" width="185">
-        <div class="media-body">
-          <h5 class="mt-0">Data Engineer</h5>
-          <br> Data Engineer who currently has her sights set on a data science internship or part-time position. Passionate
-          about using knowledge to solve real-life problems, I am, as Hilary Mason would put it, an ‘awesome nerd’. Not only
-          do I have the technical skills to code and organize information and data in programs and languages such as Excel,
-          VBA, Python, SQL, Access, and Oracle, but I am also capable in leveraging my communication skills that help me
-          explain the impact of my work to others. I have an insatiable curiosity and do best in a team setting, working
-          with others to explore and create innovative solutions with optimal, efficient, and clean results.
-          <br>
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-      <div class="media">
-        <div class="media-body">
-          <h5 class="mt-0">About Me</h5>
-          <br> One of my favorite things to do is to explore the backcountry with my trusty four-pawed friend, Bobby. We go everywhere
-          together, and one of my favorite treks is the hike to
-          <a href="https://www.hikespeak.com/campgrounds/henninger-flats-campground-san-gabriel-mountains/" target="_blank">Henniger Flats</a>
-          in the mountains of Pasadena. Check out our trip photos!
-        </div>
-      </div>
-      <div class="container">
-        <br>
-        <h6>Image Gallery</h6>
-        <p>Henniger Flats Trip</p>
-        <p>Click on the images to enlarge them.</p>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="Resources/Images/lg-thumbnail/bp1.jpg" target="_blank">
-                <img src="Resources/Images/sm-thumbnail/bp1.jpg">
-                <div class="caption">
-                  <p>Me carrying a 40lb pack</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="Resources/Images/lg-thumbnail/bp3.jpg" target="_blank">
-                <img src="Resources/Images/sm-thumbnail/bp3.jpg">
-                <div class="caption">
-                  <p>Enjoying the scenery with Bobby right before sunset</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="Resources/Images/lg-thumbnail/bp4.jpg" target="_blank">
-                <img src="Resources/Images/sm-thumbnail/bp4.jpg">
-                <div class="caption">
-                  <p>Bobby handsomely waiting for dinner</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="Resources/Images/lg-thumbnail/bp5.jpg" target="_blank">
-                <img src="Resources/Images/sm-thumbnail/bp5.jpg">
-                <div class="caption">
-                  <p>Our camp setup</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div id="colorlib-page">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="colorlib-navbar-brand">
+							<a class="colorlib-logo" href="index.html"><span>MA</span><span>RY</span></a>
+						</div>
+						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="colorlib-about">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">About</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-5 animate-box">
+						<div class="owl-carousel3">
+							<div class="item">
+								<!--Need to update pictures here SIZE: 354X454px-->
+								<img class="img-responsive about-img" src="images/about.jpg">
+							</div>
+							<div class="item">
+								<img class="img-responsive about-img" src="images/about-2.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-push-1 animate-box">
+						<div class="about-desc">
+							<div class="owl-carousel3">
+								<div class="item">
+									<h2><span>Mary</span><span>Lin</span></h2>
+								</div>
+								<div class="item">
+									<h2><span>I'm a</span><span>Data Engineer</span></h2>
+								</div>
+							</div>
+							<div class="desc">
+								<div class="rotate">
+									<h2 class="heading">About</h2>
+								</div>
+								<p>Data Engineer who currently has her sights set on a data science internship or part-time position.
+									Passionate about using knowledge to solve real-life problems, I am, as Hilary Mason would put it,
+									an ‘awesome nerd’. Not only do I have the technical skills to code and organize information and data
+									in programs and languages such as Excel, VBA, Python, SQL, Access, and Oracle, but I am also capable
+									in leveraging my communication skills that help me explain the impact of my work to others. I have an
+									insatiable curiosity and do best in a team setting, working with others to explore and create innovative
+									solutions with optimal, efficient, and clean results. </p>
+								<p class="colorlib-social-icons">
+									<a href="#"><i class="icon-facebook4"></i></a>
+									<a href="#"><i class="icon-twitter3"></i></a>
+									<a href="#"><i class="icon-googleplus"></i></a>
+								</p>
+								<p><a href="#" class="btn btn-primary btn-outline">Contact Me!</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Services</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="services-flex">
+							<div class="one-third">
+								<div class="row">
+									<div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+										<span>My Services</span>
+										<h2>Here Are Some of My Skills</h2>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="rotate">
+											<h2 class="heading">Skillset</h2>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="services animate-box">
+											<h3>1 - Languages</h3>
+											<ul>
+												<li><a href="#">Java</a></li>
+												<li><a href="#">C++</a></li>
+												<li><a href="#">Python</a></li>
+												<li><a href="#">SQL</a></li>
+												<li><a href="#">HTML/CSS</a></li>
+												<li><a href="#">JavaScript</a></li>
+												<li><a href="#">VBA</a></li>
+											</ul>
+										</div>
+										<div class="services animate-box">
+											<h3>3 - Database</h3>
+											<ul>
+												<li><a href="#">MySQL</a></li>
+												<li><a href="#">MongoDB</a></li>
+												<li><a href="#">SQL Alchemy</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="services animate-box">
+											<h3>2 - Data Visualization &amp; Manipulation</h3>
+											<ul>
+												<li><a href="#">Pandas &amp; Numpy</a></li>
+												<li><a href="#">Matplotlib/Seaborn</a></li>
+												<li><a href="#">Plotly.js &amp; D3.js</a></li>
+												<li><a href="#">APIs (JSON)</a></li>
+												<li><a href="#">Webscraping</a></li>
+												<li><a href="#">Excel</a></li>
+											</ul>
+										</div>
+										<div class="services animate-box">
+											<h3>4 - Web Development</h3>
+											<ul>
+												<li><a href="#">Flask</a></li>
+												<li><a href="#">Heroku</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="one-forth services-img" style="background-image: url(images/services-img-1.jpg);">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div id="colorlib-work">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Works</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>Portfolio</span>
+						<h2>Completed Projects</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="rotate">
+							<h2 class="heading">Portfolio</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work.html" class="work-img" style="background-image: url(images/work-1.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>Bitcoin Sentiment Analysist</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-4 col-md-offset-4">
+								<div class="desc">
+									<p>Using Tweepy and Vader Sentiment Analysis, we chart Bitcoin's recent price changes on a time-series graph
+										normalized against
+										sentiment scores gathered from Twitter.
+									</p>
+									<p class="read"><a href="#">View details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work.html" class="work-img" style="background-image: url(images/work-2.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>IN PROGRESS</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-4 col-md-offset-4">
+								<div class="desc">
+									<p>This project is on it's way!</p>
+									<p class="read"><a href="#">View Details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work.html" class="work-img" style="background-image: url(images/work-3.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>IN PROGRESS</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-4 col-md-offset-4">
+								<div class="desc">
+									<p>This project is on it's way!</p>
+									<p class="read"><a href="#">View details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work.html" class="work-img" style="background-image: url(images/work-4.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>Everything Boba</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-4 col-md-offset-4">
+								<div class="desc">
+									<p>An ENCYCLOPEDIA dedicated to Everything Boba</span></p>
+									<p class="read"><a href="#">View details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-blog">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Blog</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>Blog</span>
+						<h2>Bobapedia</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="rotate">
+							<h2 class="heading">Our Blog</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="owl-carousel1">
+						<div class="item">
+							<div class="col-md-12">
+								<div class="article">
+									<a href="blog.html" class="blog-img">
+										<img class="img-responsive" src="images/img-1.jpg" alt="html5 bootstrap by colorlib.com">
+										<div class="overlay"></div>
+										<div class="link">
+											<span class="read">Read more</h2>
+										</div>
+									</a>
+									<div class="desc">
+										<span class="meta">15, Feb 2018</span>
+										<h2><a href="blog.html">The Basics</a></h2>
+										<p>From Boba to Milk-Tea: An expert how-to guide providing step-by-step instructions to preparing your very
+											own Green Milk Tea with Boba</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-12">
+								<div class="article">
+									<a href="blog.html" class="blog-img">
+										<img class="img-responsive" src="images/img-2.jpg" alt="html5 bootstrap by colorlib.com">
+										<div class="overlay"></div>
+										<div class="link">
+											<span class="read">Read more</h2>
+										</div>
+									</a>
+									<div class="desc">
+										<span class="meta">15, Feb 2018</span>
+										<h2><a href="blog.html">A Family Tradition</a></h2>
+										<p>We travel through the side streets of LA in search of the best boba in town, we talk about boba's origins,
+											it's history and recent emergence in the foodie world</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-12">
+								<div class="article">
+									<a href="blog.html" class="blog-img">
+										<img class="img-responsive" src="images/img-3.jpg" alt="html5 bootstrap by colorlib.com">
+										<div class="overlay"></div>
+										<div class="link">
+											<span class="read">Read more</h2>
+										</div>
+									</a>
+									<div class="desc">
+										<span class="meta">15, Feb 2018</span>
+										<h2><a href="blog.html">What is Boba?</a></h2>
+										<p>Also known as boba, bubble, or tapioca pearl, we walk into the kitchen of our boba chef and learn how this
+											deliciouis ball of joy is made</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Make sure to add this section back in once I have something to put here.  -->
+		<!-- <div id="colorlib-testimony">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Testimonies</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>Testimonies</span>
+						<h2>Clients Says</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="rotate">
+							<h2 class="heading">Says</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="owl-carousel">
+						<div class="item">
+							<div class="col-md-12 text-center">
+								<div class="testimony">
+									<blockquote>
+										<p>"A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+										<span>" &mdash; George Brooks</span>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-12 text-center">
+								<div class="testimony">
+									<blockquote>
+										<p>"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+											One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+											Grammar.</p>
+										<span>" &mdash; Daniel Foster</span>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-12 text-center">
+								<div class="testimony">
+									<blockquote>
+										<p>"When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her
+											hometown Bookmarksgrove</p>
+										<span>" &mdash; Liam Jenkins</span>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-pb-sm">
+							<div class="row">
+								<div class="col-md-10">
+									<h2>Let's Talk</h2>
+									<p><a href="https://www.github.com/themarylin">Github</a></p>
+									<p><a href="#">themarylin90@gmail.com</a></p>
+									<p class="colorlib-social-icons">
+										<a href="#"><i class="icon-facebook4"></i></a>
+										<a href="#"><i class="icon-twitter3"></i></a>
+										<a href="#"><i class="icon-googleplus"></i></a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-pb-sm">
+							<h2>Latest Blog</h2>
+							<div class="f-entry">
+								<a href="#" class="featured-img" style="background-image: url(images/img-1.jpg);"></a>
+								<div class="desc">
+									<span>February 15, 2018</span>
+									<h3><a href="#">The Basics</a></h3>
+								</div>
+							</div>
+							<div class="f-entry">
+								<a href="#" class="featured-img" style="background-image: url(images/img-2.jpg);"></a>
+								<div class="desc">
+									<span>February 9, 2018</span>
+									<h3><a href="#">A Family Tradition</a></h3>
+								</div>
+							</div>
+							<div class="f-entry">
+								<a href="#" class="featured-img" style="background-image: url(images/img-3.jpg);"></a>
+								<div class="desc">
+									<span>February 15, 2018</span>
+									<h3><a href="#">What is Boba?</a></h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-pb-sm">
+							<h2>Newsletter</h2>
+							<p>If you like what you see or want to be updated with weekly blog posts about boba, just subscribe below!</p>
+							<div class="subscribe text-center">
+								<div class="form-group">
+									<input type="text" class="form-control text-center" placeholder="Enter Email address">
+									<input type="submit" value="Subscribe" class="btn btn-primary btn-custom">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<p>
+								&copy;
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;<script>
+									document.write(new Date().getFullYear());
+								</script> All rights reserved | This template is made with <i class="icon-heart4" aria-hidden="true"></i> by <a
+								 href="https://colorlib.com" target="_blank">Colorlib</a>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
 
 </body>
 
